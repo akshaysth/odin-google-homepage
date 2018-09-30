@@ -2,18 +2,71 @@
 <html>
 	<head>
 		<title>Google</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
 		<div id="nav">
-			
+			<div id="navbar">
+				<span id="hsl">
+					<a href="">About</a>
+					<a href="">Store</a>
+				</span>
+				<span id="hsr">
+					<div id="links">
+						<a href="">Gmail</a>
+						<a href="">Images</a>	
+					</div>
+					<div id="icons">
+						<div id="apps">
+							<a href="" class="icon"></a>
+						</div>
+						<div id="sign_in">
+							<a href="" class="btn">Sign In</a>
+						</div>
+					</div>
+
+				</span>
+			</div>
 		</div>
 		<div id="content">
-			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+			<div id="logo">
+				<img height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+			</div>
+			<div id="searchbox">
+				<div id="search" maxlength="2048">
+					<input type="text">
+					<div id="mic">
+						<div id="voice_button">
+							<span class="voice"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="buttons">
+				<input type="submit" value="Google Search">
+				<input type="submit" value="I'm Feeling Lucky">
+			</div>
+		</div>
+		<div id="footer">
+			<div id="fbar">
+				<span id="fsr">
+					<a href="">Privacy</a>
+					<a href="">Terms</a>
+					<a href="">Settings</a>
+				</span>
+				<span id="fsl">
+					<a href="">Advertising</a>
+					<a href="">Business</a>
+				</span>
+			</div>
+
 		</div>
 
-	</body
+	</body>
 
 
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </html>
 

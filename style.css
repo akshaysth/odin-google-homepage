@@ -1,0 +1,274 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav {
+	display: block;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	right: 0;
+	font-size: 13px;
+}
+
+#hsl {
+	float: left;
+	margin: 7px 0 0 10px;
+}
+
+#hsl a {
+	display: inline-block;
+	padding-left: 15px;
+	color: #000;
+	opacity: 0.75;
+}
+
+#hsr {
+	float: right;
+	min-width: 226px;
+	padding: 0 30px;
+}
+
+#links {
+	padding-right: 15px;
+	position: relative;
+	float: left;
+	vertical-align: middle;
+	line-height: 28px;
+}
+
+#links a {
+	margin-left: 0!important;
+	margin-right: 0!important;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+#links a:first-child {
+	padding-left: 0;
+}
+
+#icons {
+	min-width: 114px;
+	flex: 0 1 auto;
+	position: relative;
+	float: right;
+}
+
+
+#apps {
+	display: block;
+	padding-left: 0;
+	position: relative;
+	float: left;
+}
+
+#sign_in {
+	display:inline-block;
+	padding: 0 0 0 15px;
+	position: relative;
+	vertical-align: middle;
+	flex: 0 0 auto;
+	color: #fff;
+	cursor: default;
+	text-decoration: none;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	line-height: 28px;
+	padding: 0 12px;
+	border-radius: 2px;
+	float: right;
+}
+
+.btn {
+	line-height: 28px;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+	background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	opacity: .55;
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+#buttons {
+	padding-top: 18px;
+}
+
+#buttons input {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	color: #757575;
+	height: 36px;
+	line-height: 27px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	margin: 11px 4px;
+	padding: 0 16px;
+}
+
+#buttons input:hover {
+	background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#content {
+	padding-bottom: 35px;
+	min-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#logo {
+	display: block;
+	height: 233px;
+	margin-top: 89px;
+}
+
+#logo img {
+	padding-top: 109px;
+}
+
+#searchbox {
+	margin: 0 auto;
+	width: 833px;
+	height: 50px;
+	overflow: visible;
+}
+
+#search {
+	font: 16px arial, sans-serif;
+	line-height: 34px;
+	height: 44px !important;
+	background: #fff;
+	border-radius: 2px;
+	border: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-top: 6px;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	width: 584px;
+	z-index: 3;
+	position: relative;
+}
+
+#search input {
+	background-color: transparent;
+	border: none;
+	margin: 5px 8px 0 16px;
+	padding: 0;
+	color: rgba(0,0,0,.87);
+	word-wrap: break-word;
+	outline: none;
+	--webkit-tap-highlight-color: transparent;
+	font: 16px arial, sans-serif;
+	width: 500px;
+	text-align: start;
+}
+
+#mic {
+	display: flex;
+	flex: 0 0 auto;
+	margin-top: -5px;
+	align-items: stretch;
+	flex-direction: row;
+}
+
+#voice_button {
+	flex: 1;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	border: 0;
+	background: transparent;
+	outline: none;
+	padding: 0 8px;
+	width: 24px;
+	line-height: 44px;
+}
+
+.voice {
+	background: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+	height: 24px;
+	width: 24px;
+	background-size: 24px;
+	vertical-align: middle;
+}
+
+
+#footer {
+	display: block;
+	font-size: 10pt;
+}
+
+#footer a {
+	color: #666;
+}
+
+#fbar {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	margin-left: -27px;
+	font-size: small;
+}
+
+#fbar a {
+	text-decoration: none;
+	white-space: nowrap;
+	padding-left: 27px;
+}
+
+#fbar a:hover {
+	text-decoration: underline;
+}
+
+#fsr {
+	float: right;
+	margin-right: 30px;
+}
+
+#fsl {
+	float: left;
+	margin-left: 30px;
+}
